@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Deutsch">
+        <activity android:name=".TasksActivity"></activity>
         <activity
             android:name=".LessonsActivity"
             android:label="@string/title_activity_lessons"
-            android:theme="@style/Theme.Deutsch.NoActionBar"></activity>
+            android:theme="@style/Theme.Deutsch.NoActionBar" />
         <activity android:name=".AuthenticationActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
