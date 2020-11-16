@@ -91,4 +91,6 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="lessons_btn">Учить уроки</string>
+    <string name="tasks_btn">Практические задания</string>
 </resources>

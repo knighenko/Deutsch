@@ -9,26 +9,26 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/lessons_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/lessons_btn"
         tools:layout_editor_absoluteX="172dp"
         tools:layout_editor_absoluteY="82dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/tasks_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/tasks_btn"
         tools:layout_editor_absoluteX="105dp"
         tools:layout_editor_absoluteY="142dp" />
 
     <ProgressBar
-        android:id="@+id/progressBar"
+        android:id="@+id/achievement_bar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="232dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="331dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
