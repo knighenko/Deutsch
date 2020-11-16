@@ -7,28 +7,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textViewName"
-        android:layout_width="249dp"
-        android:layout_height="34dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="TextView"
-        />
-    <TextView
-        android:id="@+id/textViewPassword"
-        android:layout_width="249dp"
-        android:layout_height="38dp"
-        android:text="TextView"
 
-        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="82dp" />
 
-    <EditText
-        android:id="@+id/editTextPassword"
-        android:layout_width="253dp"
-        android:layout_height="29dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="142dp" />
 
-
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="232dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
