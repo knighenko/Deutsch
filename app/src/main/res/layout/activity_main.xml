@@ -23,7 +23,13 @@
         android:text="@string/tasks_btn"
         tools:layout_editor_absoluteX="105dp"
         tools:layout_editor_absoluteY="142dp" />
-
+    <Button
+        android:id="@+id/dictionary_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dictionary"
+        app:layout_constraintTop_toBottomOf="@+id/tasks_btn"
+        tools:layout_editor_absoluteX="119dp" />
     <ProgressBar
         android:id="@+id/achievement_bar"
         style="?android:attr/progressBarStyleHorizontal"
@@ -31,4 +37,6 @@
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="331dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
